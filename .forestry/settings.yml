@@ -9,15 +9,15 @@ sections:
   label: About
   create: none
   match: "*"
-- type: document
-  path: README.md
-  label: README
-  read_only: true
 - type: heading
   label: Configuration
 - type: document
   path: config.toml
   label: Configuration
+- type: document
+  path: README.md
+  label: README
+  read_only: true
 - type: heading
   label: Blog Post
 - type: directory
